@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Medicoin"
-#define QAPP_ORG_DOMAIN "medicoin.org"
+#define QAPP_ORG_DOMAIN "medicoin.com.br"
 #define QAPP_APP_NAME_DEFAULT "Medicoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Medicoin-Qt-testnet"
 

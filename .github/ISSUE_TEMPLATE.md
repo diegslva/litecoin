@@ -4,7 +4,7 @@ This issue tracker is only for technical issues related to medicoin-core.
 
 General medicoin questions and/or support requests and are best directed to the [medicointalk.io forums](https://medicointalk.io/).
 
-For reporting security issues, please contact the Medicoin developers on the #medicoin-dev Freenode IRC channel or alternatively you can email us at contact@medicoin.org.
+For reporting security issues, please contact the Medicoin developers on the #medicoin-dev Freenode IRC channel or alternatively you can email us at contact@medicoin.com.br.
 
 ### Describe the issue
 

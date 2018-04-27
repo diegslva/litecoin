@@ -1,6 +1,6 @@
 Medicoin Core version 0.14.2 is now available from:
 
-  <https://download.medicoin.org/medicoin-0.14.2.0/>
+  <https://download.medicoin.com.br/medicoin-0.14.2.0/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.

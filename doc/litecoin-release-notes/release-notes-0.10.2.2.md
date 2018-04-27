@@ -1,6 +1,6 @@
 Medicoin Core version 0.10.2.2 is now available from:
 
-  <https://download.medicoin.org/medicoin-0.10.2.2/>
+  <https://download.medicoin.com.br/medicoin-0.10.2.2/>
 
 This is a new major version release, bringing bug fixes and translation 
 updates. It is recommended to upgrade to this version.
