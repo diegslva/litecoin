@@ -1,4 +1,4 @@
-TOR SUPPORT IN LITECOIN
+TOR SUPPORT IN MEDICOIN
 ======================
 
 It is possible to run Medicoin as a Tor hidden service, and connect to such services.
