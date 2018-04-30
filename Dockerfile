@@ -26,6 +26,7 @@ RUN apt-get install -y libzmq3-dev
 RUN chmod 764  ./config.guess
 RUN chmod 764  ./config.sub
 RUN chmod +x  ./autogen.sh
+RUN find ./ -type f -iname "*.sh" -exec chmod +x {} \;
 
 #build medicoin source
 RUN ./autogen.sh
