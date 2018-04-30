@@ -25,6 +25,7 @@ RUN apt-get install -y libzmq3-dev
 # permissions
 RUN chmod 764  ./config.guess
 RUN chmod 764  ./config.sub
+RUN chmod +x  ./autogen.sh
 
 #build medicoin source
 RUN ./autogen.sh
