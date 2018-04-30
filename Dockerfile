@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 COPY ./medicoin.conf /root/.medicoin/medicoin.conf
 
@@ -29,6 +29,6 @@ RUN make
 RUN make install
 
 #open service port
-EXPOSE 9766 19766
+EXPOSE 9777 19777
 
 CMD ["medicoind", "--printtoconsole"]
