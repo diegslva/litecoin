@@ -22,6 +22,10 @@ RUN apt-get install -y libminiupnpc-dev
 #ZMQ
 RUN apt-get install -y libzmq3-dev
 
+# permissions
+RUN chmod 764  ./config.guess
+RUN chmod 764  ./config.sub
+
 #build medicoin source
 RUN ./autogen.sh
 RUN ./configure
