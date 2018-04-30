@@ -118,6 +118,25 @@ Once the source code is ready the build steps are below.
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
     make
 
+Problems with WSL and (`make`)
+----------------------------
+
+If you running out getting errors like (`Syntax error: "(" unexpected s`), try this alternative:
+
+    PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
+    cd depends
+    make download-win # to fetch all sources needed for win builds
+    chmod 764  ./config.guess # check permissions
+    chmod 764  ./config.sub # check permissions
+    make HOST=x86_64-w64-mingw32 -j4
+    cd ..
+    ./autogen.sh # not required when building from tarball
+    CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
+    make    
+
+You can get more information about this problem [here](https://github.com/bitcoin/bitcoin/issues/10269)
+
+
 ## Building for 32-bit Windows
 
 To build executables for Windows 32-bit, install the following dependencies:

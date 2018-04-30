@@ -8,6 +8,8 @@ src/medicoin-tx
 src/test/test_medicoin
 src/test/test_medicoin_fuzzy
 src/qt/test/test_medicoin-qt
+db4/
+db-4.8.30.NC/
 
 # autoreconf
 Makefile.in
