@@ -3,7 +3,7 @@ Medicoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/medicoin-project/medicoin.svg?branch=master)](https://travis-ci.org/medicoin-project/medicoin)
 
-https://medicoin.com.br
+<img src="https://image.ibb.co/cnmuKS/about.png"/ style="align-middle">https://www.medicoin.com.br
 
 What is Medicoin?
 ----------------
