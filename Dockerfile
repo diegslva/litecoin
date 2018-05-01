@@ -31,6 +31,8 @@ RUN find ./ -type f -iname "*.sh" -exec chmod +x {} \;
 #build medicoin source
 RUN ./autogen.sh
 RUN ./configure
+
+# ./autogen.sh; ./configure; make; make install
 RUN make
 RUN make install
 
