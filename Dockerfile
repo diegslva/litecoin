@@ -32,7 +32,13 @@ RUN find ./ -type f -iname "*.sh" -exec chmod +x {} \;
 RUN ./autogen.sh
 RUN ./configure
 
+# Linux
 # ./autogen.sh; ./configure; make; make install
+
+# Windows
+# ./autogen.sh; CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/; make
+
+
 RUN make
 RUN make install
 
