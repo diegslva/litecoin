@@ -8,7 +8,7 @@ packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/medicoin-project/medicoin-detached-sigs.git"
+- "url": "https://github.com/diegslva/medicoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"

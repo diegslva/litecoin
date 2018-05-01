@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/medicoin-project/medicoin-detached-sigs.git"
+- "url": "https://github.com/diegslva/medicoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "medicoin-osx-unsigned.tar.gz"

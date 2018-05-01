@@ -33,7 +33,7 @@ Build Medicoin Core
 
 1. Clone the medicoin source code and cd into `medicoin`
 
-        git clone https://github.com/medicoin-project/medicoin
+        git clone https://github.com/diegslva/medicoin
         cd medicoin
 
 2.  Build medicoin-core:

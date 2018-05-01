@@ -1,7 +1,7 @@
 Medicoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/medicoin-project/medicoin.svg?branch=master)](https://travis-ci.org/medicoin-project/medicoin)
+[![Build Status](https://travis-ci.org/diegslva/medicoin.svg?branch=master)](https://travis-ci.org/diegslva/medicoin)
 
 https://medicoin.com.br
 
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/medicoin-project/medicoin/tags) are created
+completely stable. [Tags](https://github.com/diegslva/medicoin/tags) are created
 regularly to indicate new official, stable release versions of Medicoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
