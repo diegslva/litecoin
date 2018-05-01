@@ -3,7 +3,9 @@ Medicoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/medicoin-project/medicoin.svg?branch=master)](https://travis-ci.org/medicoin-project/medicoin)
 
-<div><img style="vertical-align:middle" src="https://image.ibb.co/cnmuKS/about.png"><span style="">https://www.medicoin.com.br</span></div>
+<div><img style="vertical-align:middle" src="https://image.ibb.co/dskbYn/MEDICOIN_slogan_logo.png"></div>
+
+<span style="">https://www.medicoin.com.br</span>
 
 What is Medicoin?
 ----------------
@@ -15,7 +17,7 @@ out collectively by the network. Medicoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Medicoin Core software, see [https://medicoin.com.br](https://medicoin.com.br).
+the Medicoin Core software, see [https://www.medicoin.com.br](https://medicoin.com.br).
 
 License
 -------
