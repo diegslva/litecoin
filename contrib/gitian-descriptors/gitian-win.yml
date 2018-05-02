@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/diegslva/medicoin.git"
+- "url": "https://github.com/medicoin-project/medicoin.git"
   "dir": "medicoin"
 files: []
 script: |

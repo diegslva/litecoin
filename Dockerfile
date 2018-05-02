@@ -23,8 +23,13 @@ RUN apt-get install -y libminiupnpc-dev
 RUN apt-get install -y libzmq3-dev
 
 # permissions
+WORKDIR /medicoin/depends
+
 RUN chmod 764  ./config.guess
 RUN chmod 764  ./config.sub
+
+WORKDIR /medicoin
+
 RUN chmod +x  ./autogen.sh
 RUN find ./ -type f -iname "*.sh" -exec chmod +x {} \;
 

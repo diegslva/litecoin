@@ -8,7 +8,7 @@ recommended to upgrade to this version as soon as possible.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/diegslva/medicoin/issues>
+  <https://github.com/medicoin-project/medicoin/issues>
 
 Upgrading and downgrading
 =========================

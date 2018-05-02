@@ -7,7 +7,7 @@ performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/diegslva/medicoin/issues>
+  <https://github.com/medicoin-project/medicoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
