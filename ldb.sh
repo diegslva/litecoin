@@ -1,6 +1,6 @@
 MEDICOIN_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the litecoin directory
+# Pick some path to install BDB to, here we create a directory within the medicoin directory
 BDB_PREFIX="${MEDICOIN_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
